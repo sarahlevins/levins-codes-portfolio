@@ -2,19 +2,23 @@
   text-align: center;
 }
 
-.Home-header {
-  height: 50vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-container {
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-direction: column;
+  padding: 0;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+}
+
+.header-text {
+  justify-self: center;
+  position: absolute;
 }
 
 .App-link {
@@ -22,6 +26,5 @@
 }
 
 .form-container {
-  display: flex;
-  justify-content: center;
+  width: 50vw;
 }
