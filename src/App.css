@@ -21,6 +21,7 @@
   color: #09d3ac;
 }
 
-.page-container {
-  display: flex-box;
+.form-container {
+  display: flex;
+  justify-content: center;
 }

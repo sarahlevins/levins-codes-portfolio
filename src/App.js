@@ -14,14 +14,22 @@ function App() {
 
           <div className="navigation-sub">
             <Link to="/" className="item">
-              Projects
+              Home
             </Link>
-            <Link to="/contactme" className="item">
-              Contact Me
-            </Link>
+            {" | "}
             <Link to="/about" className="item">
               About
             </Link>
+            {" | "}
+            <Link to="/projects" className="item">
+              Projects
+            </Link>
+            {" | "}
+            <Link to="/contactme" className="item">
+              Contact Me
+            </Link>
+            {" | "}
+
             <Route exact path="/" component={Projects} />
             <Route path="/contactme" component={ContactMe} />
             <Route path="/about" component={About} />
