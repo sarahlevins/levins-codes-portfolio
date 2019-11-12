@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.Home-header {
+  height: 50vmin;
 }
 
 .App-header {
@@ -19,4 +19,8 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.page-container {
+  display: flex-box;
 }
