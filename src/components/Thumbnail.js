@@ -7,13 +7,15 @@ const Thumbnail = ({ link, image, title, category, description, ...props }) => {
   return (
     <>
       <a href={link} target="_blank">
-        <Card>
+        <Card id="card">
           <Card.Img variant="top" src={image} />
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <Card.Text>
-              <p>{description}</p>
-              <p>{category}</p>
+              {description}
+              <br />
+              <br />
+              {category}
             </Card.Text>
           </Card.Body>
         </Card>

@@ -4,8 +4,12 @@ import { Button } from "react-bootstrap";
 
 function ContactMe(props) {
   return (
-    <>
-      <div className="form-container">
+    <div className="page-container form-container">
+      <div className="form-width" id="contact">
+        <div style={{ textAlign: "center" }}>
+          <h1>Contact Me</h1>
+          <p>I would love to hear from you. Shoot me a message below.</p>
+        </div>
         <Form
           action="https://formspree.io/sarahjeanlevins@gmail.com"
           method="POST"
@@ -21,12 +25,12 @@ function ContactMe(props) {
             <Form.Label>How can I help you?</Form.Label>
             <Form.Control as="textarea" rows="3" placeholder="Message" />
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <Button variant="flat" type="submit" className="form-button">
             Submit
           </Button>
         </Form>
       </div>
-    </>
+    </div>
   );
 }
 

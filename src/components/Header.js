@@ -3,11 +3,11 @@ import "../App.css";
 
 const Header = ({ headerimage }) => {
   return (
-    <div className="header-container">
-      <img src={headerimage} alt="header image" className="header-image" />
+    <div className="header-container" id="header">
+      <img src={headerimage} alt="plane banner" className="header-image" />
       <div className="header-text">
-        <h1>Sarah Levins</h1>
-        <h2>Web Developer</h2>
+        <h1 className="header-name">Sarah Levins</h1>
+        <h2 className="header-role">Web Developer</h2>
       </div>
     </div>
   );

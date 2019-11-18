@@ -1,11 +1,11 @@
 import React from "react";
-import Thumbnail from "../components/Thumbnail.js";
+import Thumbnail from "./Thumbnail.js";
 import "../App.css";
 import { CardColumns } from "react-bootstrap";
 
 function Projects(props) {
   return (
-    <div className="page-container">
+    <div className="page-container" id="projects">
       <h1>Projects</h1>
       <CardColumns>
         <Thumbnail
@@ -16,7 +16,7 @@ function Projects(props) {
           category="React JS/API"
         />
         <Thumbnail
-          link=""
+          link="https://morning-headland-11937.herokuapp.com/freeeventfinder/"
           image="./static/thumbnail-eventfinder-app.png"
           title="Event Finder App"
           description="A python/django app using a postgreSQL database to create, track and filter events you can attend for free"
