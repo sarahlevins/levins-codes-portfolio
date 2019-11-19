@@ -10,6 +10,7 @@ class Navigation extends Component {
           sticky="top"
           bg="white"
           expand="md"
+          id="start"
         >
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse

@@ -12,3 +12,12 @@ body {
 code {
   font-family: "Roboto Slab", serif;
 }
+
+a {
+  color: #fff9fa !important;
+}
+
+a:hover {
+  color: #8994a0 !important;
+  text-decoration: none;
+}

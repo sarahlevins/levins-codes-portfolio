@@ -1,6 +1,15 @@
 #AppContainer {
-  margin: 0px 5vw;
+  margin: -20px 5vw;
   padding: 0px 2vw;
+}
+
+#AppContainer a {
+  color: black !important;
+}
+
+#AppContainer a:hover {
+  color: #8994a0 !important;
+  text-decoration: none;
 }
 
 .page-container {
@@ -18,13 +27,14 @@
 
 .header-container {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   padding: 0;
   align-items: center;
   justify-content: center;
   font-family: "Roboto Slab", serif;
   background: white;
+  border-bottom: 2px dashed #8994a0;
 }
 
 .header-image {
@@ -45,7 +55,6 @@
   position: absolute;
   color: #fff9fa;
   text-shadow: 4px 3px 0 #7e7f7f;
-  color: #ffffff;
   text-align: center;
 }
 
