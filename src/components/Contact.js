@@ -8,7 +8,7 @@ function ContactMe(props) {
       <div className="form-width" id="contact">
         <div style={{ textAlign: "center" }}>
           <h1>Contact Me</h1>
-          <p>I would love to hear from you. Shoot me a message below.</p>
+          <p>I would love to hear from you. Send me a message below.</p>
         </div>
         <Form
           action="https://formspree.io/sarahjeanlevins@gmail.com"

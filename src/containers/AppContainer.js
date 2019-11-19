@@ -7,7 +7,7 @@ import Navigation from "../components/Navigation.js";
 import Footer from "../components/Footer.js";
 
 function AppContainer() {
-  var bgColors = { Blue: "#90ACCE", LessBlue: "#78B5C0" };
+  var bgColors = { White: "#FFF9FA", Blue: "#B1D6DB" };
   return (
     <div
       style={{
@@ -15,12 +15,20 @@ function AppContainer() {
         // backgroundPosition: "center",
         // backgroundSize: "cover",
         // backgroundRepeat: "no-repeat"
-        backgroundColor: bgColors.LessBlue
+        backgroundColor: bgColors.Blue,
+        height: "100%"
       }}
     >
       <Header headerimage="static/blueplane.jpg" />
       <Navigation />
-      <div id="AppContainer" style={{ backgroundColor: "white" }}>
+      <div
+        id="AppContainer"
+        style={{
+          backgroundColor: bgColors.White,
+          boxShadow: "3px 0px 8px #7E7F7F",
+          paddingBottom: "35px"
+        }}
+      >
         <About>
           <p>
             A driven junior developer transitioning into a career in the tech

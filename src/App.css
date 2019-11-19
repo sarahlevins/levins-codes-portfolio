@@ -18,7 +18,7 @@
 
 .header-container {
   width: 100%;
-  height: auto;
+  height: 50vh;
   display: flex;
   padding: 0;
   align-items: center;
@@ -37,13 +37,13 @@
   justify-self: center;
   position: absolute;
   color: #ffffff;
-  text-shadow: 4px 3px 0 #7a7a7a;
+  text-shadow: 4px 3px 0 #7e7f7f;
   color: #ffffff;
   text-align: center;
 }
 
 .header-name {
-  font-size: 175px;
+  font-size: 75px;
   font-weight: bold;
 }
 

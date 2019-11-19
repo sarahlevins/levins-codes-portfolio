@@ -7,7 +7,6 @@ const Header = ({ headerimage }) => {
       <img src={headerimage} alt="plane banner" className="header-image" />
       <div className="header-text">
         <h1 className="header-name">Sarah Levins</h1>
-        <h2 className="header-role">Web Developer</h2>
       </div>
     </div>
   );
