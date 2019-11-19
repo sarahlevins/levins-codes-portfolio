@@ -7,7 +7,7 @@ import Navigation from "../components/Navigation.js";
 import Footer from "../components/Footer.js";
 
 function AppContainer() {
-  var bgColors = { White: "#FFF9FA", Blue: "#B1D6DB" };
+  var bgColors = { White: "#FFF9FA", Blue: "#CCE1E5" };
   return (
     <div
       style={{
@@ -20,7 +20,6 @@ function AppContainer() {
       }}
     >
       <Header headerimage="static/blueplane.jpg" />
-      <Navigation />
       <div
         id="AppContainer"
         style={{
@@ -29,6 +28,7 @@ function AppContainer() {
           paddingBottom: "35px"
         }}
       >
+        <Navigation />
         <About>
           <p>
             A driven junior developer transitioning into a career in the tech
