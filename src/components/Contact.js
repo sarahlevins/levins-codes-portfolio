@@ -16,9 +16,9 @@ function ContactMe(props) {
         >
           <Form.Group controlId="formBasicNameEmail">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="name" placeholder="Name" />
+            <Form.Control type="name" placeholder="Name" name="name" />
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Email" />
+            <Form.Control type="email" placeholder="Email" name="_replyto" />
           </Form.Group>
 
           <Form.Group controlId="formControlTextarea1">

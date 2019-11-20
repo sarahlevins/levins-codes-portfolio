@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Image } from "react-bootstrap";
 import "../App.css";
 
 class About extends Component {
@@ -6,15 +7,16 @@ class About extends Component {
     return (
       <div className="page-container" id="about">
         <h1>About</h1>
+        <br />
         <div className="about-container">
-          {/* <div className="headshot-container">
-            <img
-              src="static/headshot.png"
-              alt="photo of sarah"
-              className="headshot-picture"
-            />
-          </div>
-          <br /> */}
+          <Image
+            src="static/headshot.png"
+            alt="photo of sarah"
+            className="headshot-picture"
+            roundedCircle
+          />
+          <br />
+          <br />
           <div className="description-container">{this.props.children}</div>
         </div>
       </div>

@@ -83,18 +83,9 @@
   display: inline-block;
 }
 
-.headshot-container {
-  width: 275px;
-  height: 275px;
-  overflow: hidden;
-  border-radius: 50%;
-  border: 5px solid #7a7a7a;
-  margin-right: 0px;
-}
-
 .headshot-picture {
-  margin-left: -60px;
-  width: 150%;
+  width: 200px;
+  height: 200px;
 }
 
 /* Navigation Styling */
@@ -119,4 +110,28 @@
   background-color: white !important;
   color: black !important;
   border: 1px solid black !important;
+}
+
+/* Projects */
+
+.hover {
+  position: relative;
+
+  &:hover &__no-hover {
+    opacity: 0;
+  }
+
+  &:hover &__hover {
+    opacity: 1;
+  }
+
+  &__hover {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+  }
+
+  &__no-hover {
+    opacity: 1;
+  }
 }
