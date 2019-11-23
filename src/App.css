@@ -54,7 +54,7 @@
   justify-self: center;
   position: absolute;
   color: #fff9fa;
-  text-shadow: 4px 3px 0 #7e7f7f;
+  text-shadow: 4px 3px 0 #555555;
   text-align: center;
 }
 
@@ -75,6 +75,12 @@
   .header-role {
     font-size: 35px;
   }
+  .headshot-picture {
+    margin-right: 0px;
+  }
+  .header-arrow {
+    display: none;
+  }
   /* 
   .header-image {
     height: 45%;
@@ -84,12 +90,20 @@
 /* About Styling */
 
 .about-container {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .headshot-picture {
   width: 200px;
   height: 200px;
+  margin-right: 20px;
+}
+
+.description-container {
+  width: 800px;
+  padding-top: 20px;
 }
 
 /* Navigation Styling */

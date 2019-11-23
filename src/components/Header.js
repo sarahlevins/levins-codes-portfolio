@@ -11,7 +11,11 @@ const Header = ({ headerimage }) => {
         <h1 className="header-name">Sarah Levins</h1>
         <h3 className="header-role">Developer</h3>
         <a href="#start">
-          <FontAwesomeIcon icon={faAngleDoubleDown} size="3x" />
+          <FontAwesomeIcon
+            className="header-arrow"
+            icon={faAngleDoubleDown}
+            size="3x"
+          />
         </a>
       </div>
     </div>

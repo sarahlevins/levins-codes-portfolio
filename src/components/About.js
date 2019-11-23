@@ -15,8 +15,6 @@ class About extends Component {
             className="headshot-picture"
             roundedCircle
           />
-          <br />
-          <br />
           <div className="description-container">{this.props.children}</div>
         </div>
       </div>

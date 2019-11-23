@@ -37,25 +37,18 @@ function Projects(props) {
           category="Javascript"
         />
         <Thumbnail
-          link="https://static-portfolio-pages.herokuapp.com/flexpanelgallery.html"
-          image="./static/thumbnail-flex-gallery.png"
-          title="Flex Gallery"
-          description="Part of the Javascript30 challenge. A gallery which toggles open when you click."
-          category="Javascript/Flexbox"
-        />
-        <Thumbnail
-          link="https://static-portfolio-pages.herokuapp.com/html5canvas.html"
-          image="./static/thumbnail-html-canvas.png"
-          title="HTML5 Canvas"
-          description="Part of the Javascript30 challenge. Use cursor to draw on HTML Canvas"
-          category="Javascript/HTML/CSS"
-        />
-        <Thumbnail
           link="https://static-portfolio-pages.herokuapp.com/typeahead.html"
           image="./static/thumbnail-type-ahead.png"
           title="Type Ahead List"
           description="Part of the Javascript30 challenge. Filter and display a list predicting entry."
           category="Javascript/HTML/CSS"
+        />
+        <Thumbnail
+          link="https://static-portfolio-pages.herokuapp.com/flexpanelgallery.html"
+          image="./static/thumbnail-flex-gallery.png"
+          title="Flex Gallery"
+          description="Part of the Javascript30 challenge. A gallery which toggles open when you click."
+          category="Javascript/Flexbox"
         />
         <Thumbnail
           link="https://static-portfolio-pages.herokuapp.com/checkboxes.html"
