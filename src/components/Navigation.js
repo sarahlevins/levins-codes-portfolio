@@ -6,6 +6,7 @@ class Navigation extends Component {
     return (
       <React.Fragment>
         <Navbar
+          collapseOnSelect
           className="justify-content-center"
           sticky="top"
           bg="white"

@@ -23,7 +23,12 @@ function ContactMe(props) {
 
           <Form.Group controlId="formControlTextarea1">
             <Form.Label>How can I help you?</Form.Label>
-            <Form.Control as="textarea" rows="3" placeholder="Message" />
+            <Form.Control
+              as="textarea"
+              rows="3"
+              placeholder="Message"
+              name="message"
+            />
           </Form.Group>
           <Button variant="flat" type="submit" className="form-button">
             Submit
