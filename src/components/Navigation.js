@@ -26,7 +26,7 @@ class Navigation extends Component {
                 <Nav.Link href="#about">ABOUT</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#projects">PROJECTS</Nav.Link>
+                <Nav.Link href="#projects">WORK</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="#contact">CONTACT</Nav.Link>
@@ -37,6 +37,15 @@ class Navigation extends Component {
                   target="_blank"
                 >
                   GITHUB
+                </Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item>
+                <Nav.Link
+                  href="https://www.linkedin.com/in/sarah-levins-45a257188/"
+                  target="_blank"
+                >
+                  LINKEDIN
                 </Nav.Link>
               </Nav.Item>
             </Nav>

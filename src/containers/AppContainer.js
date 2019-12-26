@@ -31,12 +31,27 @@ function AppContainer() {
         <Navigation />
         <About>
           <p>
-            A driven junior developer transitioning into a career in the tech
-            industry. 5+ years experience in leadership and customer service.
-            Passionate about simplicity and user experience. High attention to
-            detail and a track record of achieving targets within tight
-            timelines. Excited to bring unique insight into a development team.
-            On track to complete the SheCodes Plus program early December 2019.
+            I am a junior developer transitioning into a career in the tech
+            industry. My background includes over 5 years in the travel industry
+            and film production and editing. My love of learning and passion for
+            simplicity are what drives me to code. My extensive experience with
+            customers, leadership, and my ability to adapt to high pressure
+            situations with enthusiasm are what makes me an asset to any team.
+          </p>
+          <p>
+            I learned to code through the
+            <a href="https://shecodes.com.au/plus/">SheCodes Plus</a> program in
+            2019. The six month part time course gave me experience and skills
+            HTML/CSS, Python, Django, Javascript, React, Flask, Git, REST API,
+            AWS, Google Cloud, Agile Development and Machine Learning
+          </p>
+          <p>
+            Examples of projects completed during this course can be found
+            below.
+          </p>
+          <p>
+            I am currently based in Perth, Western Australia, and am excited for
+            all the new opportunities to contribute to the local industry.
           </p>
         </About>
         <Projects />
