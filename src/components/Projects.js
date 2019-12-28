@@ -9,7 +9,7 @@ function Projects(props) {
       <h1>Work Examples</h1>
       <CardColumns>
         <Thumbnail
-          link="https://react-weather-app-258608.appspot.com/"
+          link="https://master.df3egd5lftji9.amplifyapp.com/"
           image="./static/thumbnail-weather-app.png"
           title="Weather App"
           description="A react weather app using a open source 3rd party weather API. Used SVG logos for weather icons, and created a submittable form. Deployed on Google Cloud."
