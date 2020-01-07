@@ -9,6 +9,13 @@ function Projects(props) {
       <h1>Work Examples</h1>
       <CardColumns>
         <Thumbnail
+          link="https://popcornculture.herokuapp.com/"
+          image="./static/thumbnail-popcorn.png"
+          title="Movie Platform Search Engine"
+          description="A custom built REST API backend providing content streaming service information to a React front end, designed to simplify the user watching experience"
+          category="Django REST AP/React JS"
+        />
+        <Thumbnail
           link="https://master.df3egd5lftji9.amplifyapp.com/"
           image="./static/thumbnail-weather-app.png"
           title="Weather App"
