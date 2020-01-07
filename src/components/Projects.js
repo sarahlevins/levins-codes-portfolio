@@ -13,7 +13,7 @@ function Projects(props) {
           image="./static/thumbnail-popcorn.png"
           title="Movie Platform Search Engine"
           description="A custom built REST API backend providing content streaming service information to a React front end, designed to simplify the user watching experience"
-          category="Django REST AP/React JS"
+          category="Django REST API/React JS"
         />
         <Thumbnail
           link="https://master.df3egd5lftji9.amplifyapp.com/"
