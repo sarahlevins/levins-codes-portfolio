@@ -31,23 +31,22 @@ function AppContainer() {
         <Navigation />
         <About>
           <p>
-            I am a junior developer transitioning into a career in the tech
-            industry. My background includes over 5 years in the travel industry
-            and film production and editing. My love of learning and passion for
-            simplicity are what drives me to code. My extensive experience with
+            I am a Data and AI technology consultant with a passion for development and automation.
+            My background includes over 5 years in the travel industry
+            and film production and editing. My extensive experience with
             customers, leadership, and my ability to adapt to high pressure
-            situations with enthusiasm are what makes me an asset to any team.
+            situations with enthusiasm are what makes me an amazing person to work with.
           </p>
           <p>
             I learned to code through the
             <a href="https://shecodes.com.au/plus/">SheCodes Plus</a> program in
             2019. The six month part time course gave me experience and skills
             HTML/CSS, Python, Django, Javascript, React, Flask, Git, REST API,
-            AWS, Google Cloud, Agile Development and Machine Learning
+            AWS, Google Cloud, Agile Development and Machine Learning.
           </p>
+          <p>Since then I have been broadening my horizons and exploring other languages and frameworks that interest me, like C#, ASP.NET Core, Gatsby, SASS and more.</p>
           <p>
-            Examples of projects completed during this course can be found
-            below.
+            Examples of projects I have built can be found below, and on my <a href="https://github.com/sarahlevins">Github</a>.
           </p>
           <p>
             I am currently based in Perth, Western Australia, and am excited for
