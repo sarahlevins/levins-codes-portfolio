@@ -9,6 +9,13 @@ function Projects(props) {
       <h1>Work Examples</h1>
       <CardColumns>
         <Thumbnail
+          link="http://levinscodes-gatsby-blog.surge.sh/"
+          image="./static/thumbnail-gatsby.png"
+          title="Gatsby Blog"
+          description="A simple blog built using the gatsby-starter-hello-world template. Uses React Components, GraphQL, Gatsby Plugins and SASS to programmatically generate static blog post pages from Markdown files, with slug-generated urls, and link to them from a home page comprised of reusable components. "
+          category="Gatsby/React/GraphQL/SASS"
+        />
+        <Thumbnail
           link="https://popcornculture.herokuapp.com/"
           image="./static/thumbnail-popcorn.png"
           title="Movie Platform Search Engine"
