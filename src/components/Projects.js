@@ -9,6 +9,20 @@ function Projects(props) {
       <h1>Work Examples</h1>
       <CardColumns>
         <Thumbnail
+          link="https://static-portfolio-pages.herokuapp.com/chatbot.html"
+          image="./static/thumbnail-chatbot.png"
+          title="QnA Maker Chatbot"
+          description="A FAQ conversational chatbot made using the Azure Bot Framework and QnA Maker"
+          category="Azure, Chatbots, AI"
+        />
+        <Thumbnail
+          link="http://levinscodes-gatsby-blog.surge.sh/"
+          image="./static/thumbnail-gatsby.png"
+          title="Gatsby Blog"
+          description="A simple blog built using the gatsby-starter-hello-world template. Uses React Components, GraphQL, Gatsby Plugins and SASS to programmatically generate static blog post pages from Markdown files, with slug-generated urls, and link to them from a home page comprised of reusable components. "
+          category="Gatsby/React/GraphQL/SASS"
+        />
+        <Thumbnail
           link="http://levinscodes-gatsby-blog.surge.sh/"
           image="./static/thumbnail-gatsby.png"
           title="Gatsby Blog"
@@ -21,13 +35,6 @@ function Projects(props) {
           title="Movie Platform Search Engine"
           description="A custom built REST API backend providing content streaming service information to a React front end, designed to simplify the user watching experience"
           category="Django REST API/React JS"
-        />
-        <Thumbnail
-          link="https://master.df3egd5lftji9.amplifyapp.com/"
-          image="./static/thumbnail-weather-app.png"
-          title="Weather App"
-          description="A react weather app using a open source 3rd party weather API. Used SVG logos for weather icons, and created a submittable form. Deployed on Google Cloud."
-          category="React JS/API"
         />
         <Thumbnail
           link="https://eventtwo.herokuapp.com/freeeventfinder/"
