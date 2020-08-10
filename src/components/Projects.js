@@ -6,21 +6,14 @@ import { CardColumns } from "react-bootstrap";
 function Projects(props) {
   return (
     <div className="page-container" id="projects">
-      <h1>Work Examples</h1>
+      <h1>What have I done?</h1>
       <CardColumns>
         <Thumbnail
-          link="https://static-portfolio-pages.herokuapp.com/chatbot.html"
-          image="./static/thumbnail-chatbot.png"
-          title="QnA Maker Chatbot"
-          description="A FAQ conversational chatbot made using the Azure Bot Framework and QnA Maker"
-          category="Azure, Chatbots, AI"
-        />
-        <Thumbnail
-          link="http://levinscodes-gatsby-blog.surge.sh/"
-          image="./static/thumbnail-gatsby.png"
-          title="Gatsby Blog"
-          description="A simple blog built using the gatsby-starter-hello-world template. Uses React Components, GraphQL, Gatsby Plugins and SASS to programmatically generate static blog post pages from Markdown files, with slug-generated urls, and link to them from a home page comprised of reusable components. "
-          category="Gatsby/React/GraphQL/SASS"
+          link="https://bpmplaylistgenerator.herokuapp.com/"
+          image="./static/thumbnail-playlist.png"
+          title="BPM Playlist Generator"
+          description="An application using the Spotify API to generate playlists of a desired length and tempo based on a song."
+          category="API/Django/PostgreSQL"
         />
         <Thumbnail
           link="http://levinscodes-gatsby-blog.surge.sh/"

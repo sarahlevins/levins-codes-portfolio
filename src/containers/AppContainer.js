@@ -11,10 +11,6 @@ function AppContainer() {
   return (
     <div
       style={{
-        // backgroundImage: `url(/static/icebg.jpg)`,
-        // backgroundPosition: "center",
-        // backgroundSize: "cover",
-        // backgroundRepeat: "no-repeat"
         backgroundColor: bgColors.Blue,
         height: "100%"
       }}
@@ -31,27 +27,22 @@ function AppContainer() {
         <Navigation />
         <About>
           <p>
-            I am a Data and AI technology consultant with a passion for development and automation.
-            My background includes over 5 years in the travel industry
-            and film production and editing. My extensive experience with
-            customers, leadership, and my ability to adapt to high pressure
-            situations with enthusiasm are what makes me an amazing person to work with.
-          </p>
+            I'm Sarah Levins, a developer and consultant working with data and AI.
+            </p>
           <p>
-            I learned to code through the
-            <a href="https://shecodes.com.au/plus/">SheCodes Plus</a> program in
-            2019. The six month part time course gave me experience and skills
-            HTML/CSS, Python, Django, Javascript, React, Flask, Git, REST API,
-            AWS, Google Cloud, Agile Development and Machine Learning.
-          </p>
-          <p>Since then I have been broadening my horizons and exploring other languages and frameworks that interest me, like C#, ASP.NET Core, Gatsby, SASS and more.</p>
+            I am an advocate for beginners in tech, and my mission is to make it accessible to people who want to transition into a new career.
+             </p>
+
+          <p>My journey into tech started in 2019. Armed with an arts degree,
+            and over 6 years experience in the travel industry, I decided it was the right time to learn how to code!</p>
           <p>
-            Examples of projects I have built can be found below, and on my <a href="https://github.com/sarahlevins">Github</a>.
+            I was part of the
+            <a href="https://shecodes.com.au/plus/">SheCodes Plus</a> cohort in
+            2019. This six month part time course gave me full stack development skills, and agile development practice.
           </p>
-          <p>
-            I am currently based in Perth, Western Australia, and am excited for
-            all the new opportunities to contribute to the local industry.
-          </p>
+
+          <p>I mentor at beginner workshops and speak at meetups and events within the community, as a way to push myself to learn new things and share my knowledge.</p>
+
         </About>
         <Projects />
         <Contact />
