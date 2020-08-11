@@ -37,10 +37,10 @@ function Projects(props) {
           category="Python/Django/PostgreSQL/RESTAPI"
         />
         <Thumbnail
-          link="https://levinscodes.com/static/thumbnail-survey.png"
-          image="./static/thumbnail-survey.png"
-          title="Survey"
-          description="A simple Python script which runs a survey made up of multiple sections"
+          link="https://github.com/sarahlevins/python-airport-code-game"
+          image="./static/thumbnail-airport-code-game.png"
+          title="Airport Code Finder Game"
+          description="A Python turtle game designed to help users learn where cities are and their airport codes"
           category="Python"
         />
         <Thumbnail
