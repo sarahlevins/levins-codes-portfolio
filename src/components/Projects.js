@@ -9,6 +9,20 @@ function Projects(props) {
       <h1>What have I done?</h1>
       <CardColumns>
         <Thumbnail
+          link="https://www.youtube.com/watch?v=fooDYx8oIHw"
+          image="./static/thumbnail-chatbot-talk.png"
+          title="I don't need friends I can build my own"
+          description="A beginner level talk about contextual chatbots given at Pyconline 2020"
+          category="Python/Rasa/PostgreSQL"
+        />
+        <Thumbnail
+          link="https://travelrecommendationbot.herokuapp.com/"
+          image="./static/thumbnail-chatbot-travel.png"
+          title="Travel Recommendations Chatbot"
+          description="A contexual chatbot built using Rasa, designed to give it's users travel recommendations"
+          category="Python/Rasa/PostgreSQL"
+        />
+        <Thumbnail
           link="https://bpmplaylistgenerator.herokuapp.com/"
           image="./static/thumbnail-playlist.png"
           title="BPM Playlist Generator"
